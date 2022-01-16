@@ -13,7 +13,7 @@ public class PolygoneRegulier {
      * @param longueurDuCote
      *            (longueurDuCote>=1 && longueurDuCote < 10000)
      */
-    public PolygoneRegulier(int nombreDeCotes, int longueurDuCote) {
+    public  PolygoneRegulier(int nombreDeCotes, int longueurDuCote) {
         assert nombreDeCotes >= 1 && nombreDeCotes < 100;
         assert longueurDuCote >= 1 && longueurDuCote < 10000;
         this.nombreDeCotes = nombreDeCotes;
